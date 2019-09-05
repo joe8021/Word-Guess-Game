@@ -34,7 +34,7 @@ document.onkeyup = function(event){
     var userGuesses = event.key;
 
     usedGuesses.textContent = "Guesses so far: " + userGuesses;
-    //console.log(guessed);
+    console.log(guessed);
     
 }
 
