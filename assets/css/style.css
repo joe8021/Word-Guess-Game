@@ -1,0 +1,29 @@
+#hangman{
+    text-align: center;
+    border-style: dotted;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h3{
+    text-align: center;
+    margin:1%;
+}
+
+#guessesLeft,#guessesSoFar{
+    text-align: left;
+}
+
+
+#wins{
+    text-align: left;
+}
+
+#losses{
+    text-align: left;
+    
+}
+
