@@ -37,7 +37,7 @@ for (i = 0; i < word.length; i++) {
 }
 
 
-document.ontouchstart = function (keyPressed) {
+document.onkeypress = function (keyPressed) {
     directions.textContent = "";
     var keyPressed = keyPressed || window.event,
         charCode = keyPressed.keyCode || keyPressed.which,
