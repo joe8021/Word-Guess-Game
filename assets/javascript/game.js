@@ -36,7 +36,8 @@ for (i = 0; i < word.length; i++) {
     progressWord.push('-');
 }
 
-document.onkeypress = function (keyPressed) {
+
+document.ontouchstart = function (keyPressed) {
     directions.textContent = "";
     var keyPressed = keyPressed || window.event,
         charCode = keyPressed.keyCode || keyPressed.which,
