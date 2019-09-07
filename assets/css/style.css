@@ -4,26 +4,26 @@
 }
 
 h2{
-    text-align: center;
+    text-align: left;
     margin-bottom: 5%;
 }
 
 h3{
-    text-align: center;
-    margin:1%;
+    text-align: left;
 }
 
 #guessesLeft,#guessesSoFar{
     text-align: left;
 }
 
-
-#wins{
-    text-align: left;
+body{
+    background:gold;
 }
 
-#losses{
-    text-align: left;
-    
+img{
+    height:100px;
+    width:100px;
+
 }
+
 
